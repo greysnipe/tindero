@@ -38,8 +38,8 @@
             <!-- Slider Image -->
             <ul class="example-orbit" data-orbit> 
               <li> 
-                <img src="assets/img/tindajuan.jpg"/> 
-                <div class="orbit-caption"> Welcome to TindaJuan </div> 
+                <img src="assets/img/tindero.jpg"/> 
+                <div class="orbit-caption"> Welcome to Tindero.com </div> 
               </li> 
               <li class="active"> 
                 <img src="assets/img/samp2.jpg"/> 

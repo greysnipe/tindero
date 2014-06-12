@@ -2,7 +2,7 @@
 <aside class="left-off-canvas-menu"> 
     <ul class="off-canvas-list"> 
       <li>
-        <label>TINDAJUAN</label>
+        <label>TINDERO</label>
       </li> 
       
       <li>
