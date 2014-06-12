@@ -20,6 +20,6 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
-### TindaJuan
+### Tindero
 
-TindaJuan is a project by teamMoreOn.
+Tindero is a project by teamMoreOn.
