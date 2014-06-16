@@ -1,11 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ $title }}</title>
-    {{ HTML::style('assets/css/foundation.css') }}
-    {{ HTML::script('assets/js/vendor/modernizr.js') }}
+    @include('layouts.head')
   </head>
   <body>
 
@@ -18,7 +14,8 @@
           </section>
           
           <section class="middle tab-bar-section">
-            <img src="assets/img/logo.png"/>
+            <!--<img src="assets/img/logo.png"/>-->
+            <h1 align="center"><strong>T_I_N_D_E_R_O</strong></h1>
           </section>
           <!--
           <section class="right">

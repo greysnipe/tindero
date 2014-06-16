@@ -6,27 +6,33 @@
       </li> 
       
       <li>
-        <a href="index">Home</a>
+        <a href="index" class="@if($title == 'Tindero') active @endif">
+          <i class="fa fa-home fa-fw"></i> Home</a>
       </li> 
       
       <li>
-        <a href="cart">Cart</a>
+        <a href="cart" class="@if($title == 'Cart') active @endif">
+          <i class="fa fa-shopping-cart fa-fw"></i> Cart</a>
       </li> 
 
       <li>
-        <a href="shop">Shop</a>
+        <a href="shop" class="@if($title == 'Shop') active @endif">
+          <i class="fa fa-tag fa-fw"></i> Shop</a>
       </li> 
 
       <li>
-        <a href="checkout">Checkout</a>
+        <a href="checkout" class="@if($title == 'Checkout') active @endif"> 
+          <i class="fa fa-check-square-o fa-fw"></i> Checkout</a>
       </li> 
 
       <li>
-        <a href="about">About</a>
+        <a href="about" class="@if($title == 'About') active @endif">
+          <i class="fa fa-group fa-fw"></i> About</a>
       </li>
 
       <li>
-        <a href="contact">Contact</a>
+        <a href="contact" class="@if($title == 'Contact') active @endif">
+          <i class="fa fa-phone fa-fw"></i>Contact</a>
       </li>            
     </ul> 
 </aside>

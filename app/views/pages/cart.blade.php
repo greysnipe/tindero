@@ -1,11 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ $title }}</title>
-    {{ HTML::style('assets/css/foundation.css') }}
-    {{ HTML::script('assets/js/vendor/modernizr.js') }}
+    @include('layouts.head')
   </head>
   <body>
 
@@ -20,8 +16,6 @@
           <section class="middle tab-bar-section">
             <img src="assets/img/logo.png"/>
             
-            <a href="#" class="button tiny radius right">Create Account</a>
-            &nbsp;<a href="#" class="button tiny radius right">Login</a>
           </section>
         </nav> 
 

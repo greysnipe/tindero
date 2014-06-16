@@ -5,7 +5,7 @@ class HomeController extends BaseController {
 	public function showHome()
 	{
 		return View::make('pages/index')
-			   ->with('title', 'TindaJuan');
+			   ->with('title', 'Tindero');
 	}
 
 	public function showCart()
